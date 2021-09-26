@@ -30,7 +30,7 @@ print(videoPafy.streams)
 cap = cv2.VideoCapture(videoPafy.streams[-1].url)
 cap.set(cv2.CAP_PROP_POS_MSEC, 1*60000+30000) # Skip inital frames
 
-out = cv2.VideoWriter('output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 30, (3840,720))
+#out = cv2.VideoWriter('output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 30, (3840,720))
 
 cv2.namedWindow("Estimated pose", cv2.WINDOW_NORMAL)
 
@@ -86,7 +86,7 @@ while cap.isOpened():
             else:
                 combined_img = np.hstack((heatmap_viz_img, pose_img))
 
-            out.write(combined_img)
+            #out.write(combined_img)
             cv2.imshow("Estimated pose", combined_img)
 
         else:
@@ -104,4 +104,4 @@ while cap.isOpened():
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-out.release()
+#out.release()
