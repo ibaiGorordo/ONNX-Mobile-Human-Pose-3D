@@ -3,3 +3,4 @@ imread-from-url
 onnx
 onnxruntime
 scipy
+matplotlib
