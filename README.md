@@ -2,7 +2,7 @@
 Python scripts for performing 3D human pose estimation using the Mobile Human Pose model.
 
 ![Mobile Human 3D Pose mation ONNX](https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D/blob/main/doc/img/output.bmp)
-*Source: (https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201412/01/media/DF0N5391.jpg)*
+*Original image for inference: (https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201412/01/media/DF0N5391.jpg)*
 
 ### :exclamation::warning: Known issues
 
