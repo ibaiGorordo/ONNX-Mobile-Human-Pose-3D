@@ -90,7 +90,7 @@ class MobileHumanPose():
 
         accu_x = accu_x/self.output_width
         accu_y = accu_y/self.output_height
-        accu_z = accu_z/self.output_depth - 1 
+        accu_z = accu_z/self.output_depth*2 - 1 
 
         coord_out = np.squeeze(np.concatenate((accu_x, accu_y, accu_z), axis=2))
 
