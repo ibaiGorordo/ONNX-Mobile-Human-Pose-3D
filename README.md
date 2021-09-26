@@ -7,7 +7,7 @@ Python scripts for performing 3D human pose estimation using the Mobile Human Po
 ### :exclamation::warning: Known issues
 
  * The models works well when the person is looking forward and without occlusions, it will start to fail as soon as the person is occludded.
- * The model is fast, but the 3D representation is slow due to matplotlib, this will be fixed.
+ * The model is fast, but the 3D representation is slow due to matplotlib, this will be fixed. The 3d representation can be ommitted for faster inference by setting **draw_3dpose** to False
 
 # Requirements
 
