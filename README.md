@@ -55,6 +55,7 @@ The original model was taken from the [original repository](https://github.com/S
 * PINTO0309's model zoo: https://github.com/PINTO0309/PINTO_model_zoo
 * PINTO0309's model conversion tool: https://github.com/PINTO0309/openvino2tensorflow
 * 3DMPPE_POSENET_RELEASE repository: https://github.com/mks0601/3DMPPE_POSENET_RELEASE
+* Original YOLOv5 repository: https://github.com/ultralytics/yolov5
 * Original paper: 
 https://openaccess.thecvf.com/content/CVPR2021W/MAI/html/Choi_MobileHumanPose_Toward_Real-Time_3D_Human_Pose_Estimation_in_Mobile_Devices_CVPRW_2021_paper.html
  
