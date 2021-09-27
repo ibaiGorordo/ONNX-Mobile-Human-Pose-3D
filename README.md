@@ -22,7 +22,7 @@ pip install pafy youtube-dl
 # ONNX model
 The original models were converted to different formats (including .onnx) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/blob/main/156_MobileHumanPose/download_mobile_human_pose_working_well.sh) and save them into the **[models](https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D/tree/main/models)** folder. 
 
- * YOLOv5s: You will also need an object detector to first detect the people in the image. Download alos the model from the [model zoo] (https://github.com/PINTO0309/PINTO_model_zoo/blob/main/059_yolov5/22_yolov5s_new/download.sh) and save the .onnx version into the **[models](https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D/tree/main/models)** folder.
+ * YOLOv5s: You will also need an object detector to first detect the people in the image. Download the model from the [model zoo](https://github.com/PINTO0309/PINTO_model_zoo/blob/main/059_yolov5/22_yolov5s_new/download.sh) and save the .onnx version into the **[models](https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D/tree/main/models)** folder.
 
 # Original model
 The original model was taken from the [original repository](https://github.com/SangbumChoi/MobileHumanPose).
