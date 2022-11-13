@@ -1,7 +1,6 @@
 import sys
 import cv2
 import numpy as np
-import onnx
 import onnxruntime
 from scipy.special import softmax
 from imread_from_url import imread_from_url
@@ -25,7 +24,9 @@ class MobileHumanPose():
 
     def initialize_model(self, model_path):
 
-        self.session = onnxruntime.InferenceSession(model_path)
+        self.session = onnxruntime.InferenceSession(model_path,
+                                                    providers=['CUDAExecutionProvider',
+                                                               'CPUExecutionProvider'])
 
         # Get model info
         self.getModel_input_details()
