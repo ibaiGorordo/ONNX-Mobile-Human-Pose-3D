@@ -11,12 +11,11 @@ Python scripts for performing 3D human pose estimation using the Mobile Human Po
 
 # Requirements
 
- * **OpenCV**, **imread-from-url**, **scipy**, **onnx** and **onnxruntime**. Also, **pafy** and **youtube-dl** are required for youtube video inference. 
- 
+ * **OpenCV**, **imread-from-url**, **scipy**, **onnx** and **onnxruntime**.
+
 # Installation
 ```
 pip install -r requirements.txt
-pip install pafy youtube-dl
 ```
 
 # ONNX model

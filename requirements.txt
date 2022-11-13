@@ -1,6 +1,5 @@
 opencv-python
 imread-from-url
-onnx
-onnxruntime
 scipy
 matplotlib
+cap_from_youtube

@@ -1,7 +1,6 @@
 import cv2
-import pafy
 import numpy as np
-from imread_from_url import imread_from_url
+from cap_from_youtube import cap_from_youtube
 
 from mobileHumanPose import MobileHumanPose, YoloV5s
 from mobileHumanPose.utils_pose_estimation import draw_skeleton, draw_heatmap, vis_3d_multiple_skeleton
@@ -25,9 +24,7 @@ person_detector = YoloV5s(detector_model_path, conf_thres=0.45, iou_thres=0.4)
 # cap = cv2.VideoCapture("video.mp4")
 
 videoUrl = 'https://youtu.be/SJ6f2TnHZBc'
-videoPafy = pafy.new(videoUrl)
-print(videoPafy.streams)
-cap = cv2.VideoCapture(videoPafy.streams[-1].url)
+cap = cap_from_youtube(videoUrl)
 cap.set(cv2.CAP_PROP_POS_MSEC, 1*60000+30000) # Skip inital frames
 
 #out = cv2.VideoWriter('output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 30, (3840,720))
